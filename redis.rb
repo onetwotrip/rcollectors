@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 require 'redis'
 require 'yaml'
-require_relative 'common.rb'
 
 def symbolize_keys(hash)
   hash.inject({}){|result, (key, value)|
